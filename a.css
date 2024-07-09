@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: cyan;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.counter {
+    font-size: 40px;
+    border: 2px solid cyan;
+    padding: 20px;
+    text-align: center;
+    width: 80px;
+    background-color: black;
+}
+
+.alert {
+    color: red;
+}
